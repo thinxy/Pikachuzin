@@ -1,0 +1,33 @@
+{
+	"name": "piewadmin",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"dependencies": {
+		"@types/ms": "^0.7.31",
+		"colors": "^1.4.0",
+		"discord-html-transcripts": "^3.1.5",
+		"discord.js": "^14.11.0",
+		"dotenv": "^16.3.1",
+		"mongoose": "^7.4.1",
+		"ms": "^2.1.3",
+		"ts-lib": "^0.0.5",
+		"tslib": "^2.6.1",
+		"util-stunks": "^1.2.5"
+	},
+	"devDependencies": {
+		"prettier": "^2.8.8",
+		"ts-node": "^10.9.1",
+		"tsc-alias": "^1.8.7",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.1.6"
+	},
+	"scripts": {
+		"dev": "ts-node -r tsconfig-paths/register src/index.ts",
+		"build": "tsc && tsc-alias",
+		"start": "tsc && tsc-alias && node ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
